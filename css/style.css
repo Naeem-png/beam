@@ -568,7 +568,8 @@ figure {
 
 #fh5co-primary-menu .fh5co-sub-menu {
   padding: 10px 7px 10px;
-  background: #fff;
+  background: #010101;
+  opacity: .5;
   left: 0;
   -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
@@ -595,9 +596,9 @@ figure {
 #fh5co-primary-menu .fh5co-sub-menu a {
   letter-spacing: 0;
   padding: 0 15px;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 34px;
-  color: #575757 !important;
+  color: #fff !important;
   text-transform: none;
   background: none;
 }
