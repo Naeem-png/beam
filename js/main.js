@@ -193,3 +193,12 @@
 
 
 }());
+
+window.addEventListener('scroll', function() {
+    var header = document.getElementById('fh5co-header-section');
+    if (window.scrollY > 50) { // Adjust this value based on your needs
+        header.classList.add('scrolled');
+    } else {
+        header.classList.remove('scrolled');
+    }
+});
